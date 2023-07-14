@@ -127,3 +127,99 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    /*startregion layout*/
+    .container{
+        width: 95%;
+        padding: 0 10px;
+    }
+    /*endregion layout*/
+
+    /*startregion header*/
+    h1{
+        font-size: 3rem;
+    }
+    /*endregion header*/
+
+    /*startregion main*/
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+    }
+
+    .lessons .col img, .steps .col img {
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .lessons .card .title, .steps .card .title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .lessons .card .text, .steps .card .text{
+        font-size: large;
+        margin-bottom: 3rem;
+    }
+
+    .steps{
+        margin: 0 auto;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        text-align: center;
+        aspect-ratio: 1;
+    }
+
+    .why-us li h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .why-us li p{
+        font-size: large;
+        margin-bottom: 3rem;
+    }
+    /*endregion main*/
+
+
+
+
+
+    
+
+}
